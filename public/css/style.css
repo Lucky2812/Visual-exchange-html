@@ -1663,6 +1663,7 @@ button.ask-austn-btn.cancel{
   .sell-on-ve.checkout .top .input-group{
     width: 38%;
     float: right;
+    margin-right: 8px;
   }
   .sell-on-ve .product-tab ul li a{
     width: 85px;
@@ -1739,10 +1740,16 @@ button.ask-austn-btn.cancel{
     margin-top: 0;
   }
   .sell-on-ve.orderdetail .product-tab .tab-content .orderbox.ship-detls p, 
-  .sell-on-ve .product-tab .tab-content .orderbox p{
+  .sell-on-ve.orderhistory .product-tab .tab-content .orderbox p, 
+  .sell-on-ve .product-tab .tab-content  #home .orderbox p, 
+  .sell-on-ve .product-tab .tab-content  #profile .orderbox p, 
+  .sell-on-ve .product-tab .tab-content  #messages .orderbox p{
     text-align: left;
   }
   .sell-on-ve.orderhistory .orderbox .row .text-center{
     padding-right: 0;
+  }
+  .sell-on-ve.orderdetail.checkout .orderbox.top > div:nth-child(4){
+    padding-left: 0;
   }
 }
