@@ -1746,10 +1746,25 @@ button.ask-austn-btn.cancel{
   .sell-on-ve .product-tab .tab-content  #messages .orderbox p{
     text-align: left;
   }
-  .sell-on-ve.orderhistory .orderbox .row .text-center{
+  .sell-on-ve.orderhistory .orderbox .row .text-center, 
+  .sell-on-ve.wallet .orderbox .row .text-center, 
+  .sell-on-ve .product-tab .tab-content  #home .orderbox .row .text-center, 
+  .sell-on-ve .product-tab .tab-content  #profile .orderbox .row .text-center, 
+  .sell-on-ve .product-tab .tab-content  #messages .orderbox .row .text-center{
     padding-right: 0;
   }
   .sell-on-ve.orderdetail.checkout .orderbox.top > div:nth-child(4){
     padding-left: 0;
+  }
+  .sell-on-ve .product-tab .tab-content .orderbox i.prdct{
+    background-size: 85%;
+    margin-right: 2px;
+  }
+  .sell-on-ve .product-tab .tab-content .orderbox i.usd {
+    font-size: 10px;
+    height: 18px;
+    line-height: 14px;
+    margin-right: 7px;
+    width: 18px;
   }
 }
