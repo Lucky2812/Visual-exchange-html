@@ -673,7 +673,7 @@ button.profile-btn.cancel:hover{
 #lightbox, #askquestionbox{
   display:none;
   position:fixed;
-  top:20%;
+  top:10%;
   left:38%;
   max-width:400px;
   min-height: 350px;
@@ -1322,13 +1322,20 @@ button.profile-btn.cancel{
 .add-edit-address{
   padding: 10px;
 }
+.add-edit-address .profile{
+  max-height: 445px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 .add-edit-address .profile .input-group input, 
 .add-edit-address .profile .input-group select{
   font-size: 16px;
   height: 30px
 }
 .add-edit-address button.profile-btn{
-  max-width: 142px;
+  max-width: 200px;
+  margin: 10px auto;
+  display: block;
 }
 .sell-on-ve .profile span.input-group-addon {
   height: 30px;
@@ -1766,5 +1773,8 @@ button.ask-austn-btn.cancel{
     line-height: 14px;
     margin-right: 7px;
     width: 18px;
+  }
+  .add-edit-address .profile{
+    max-height: 345px;
   }
 }
