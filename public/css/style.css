@@ -1777,4 +1777,10 @@ button.ask-austn-btn.cancel{
   .add-edit-address .profile{
     max-height: 345px;
   }
+  header .header-top .social{
+    text-align: center;
+  }
+  header .header-top nav.navbar.top-nav ul{
+    width: 82%;
+  }
 }
